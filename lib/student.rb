@@ -14,6 +14,7 @@ class Student
       select * 
       FROM students
     SQL
+    DB[:]
   end
 
   def self.find_by_name(name)
